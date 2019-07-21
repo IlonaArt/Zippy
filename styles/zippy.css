@@ -1,0 +1,36 @@
+.container {
+  max-width: 698px;
+  margin: 0 auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23.58px; }
+
+ /*%borderless-btn {
+
+ }*/
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.main-header {
+  background-image: url("../img/Image_header.jpg");
+  background-repeat: no-repeat;
+  min-height: 693px;
+  background-size: cover; }
