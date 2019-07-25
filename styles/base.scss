@@ -1,6 +1,7 @@
 .container {
-    max-width: 698px;
+    max-width: 718px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 * {
@@ -12,18 +13,26 @@
   }
   
 body {
-    font-family: "Montserrat", "Arial", sans-serif;
+    font-family: "Montserrat", "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 23.58px;
 }
 
+%borderless-btn {
+    padding: 0;
+    border: none;
+}
 
-  /*%borderless-btn {
- 
-  }*/
+b {
+    display: block;
+}
 
-  @mixin ul-style {
+button {
+    cursor: pointer;
+}
+
+@mixin ul-style {
     padding: 0;
     margin: 0;
     li {
@@ -32,18 +41,22 @@ body {
     a {
       text-decoration: none;
     }
-  }  
+}
 
-  .visually-hidden {
+ul {
+    @include ul-style();
+}
+
+.visually-hidden {
     width: 1px;
     height: 1px;
     border: 0;
     padding: 0;
-  
+
     white-space: nowrap;
-  
+
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
   

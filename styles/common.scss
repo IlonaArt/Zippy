@@ -1,0 +1,57 @@
+.section-title {
+    font-family: "Montserrat Bold";
+    font-size: var(--title-font-size);
+    line-height: 40.52px;
+    display: flex;
+    justify-content: center;
+    color: var(--title-color, black);
+}
+
+.button,
+.link {
+    font-family: "Montserrat bold";
+    font-size: var(--link-font-size);
+    line-height: 6.9px;
+    color: var(--link-color, black);
+    background-color: var(--link-background-color);
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.link {
+    text-decoration: none;
+    &:hover {
+        color: var(--link-hover-color, white);
+        background-color: var(--link-hover-background);
+    }
+    &:focus,
+    &:active {
+        background-color:var(--link-focus-background);
+        color: var(--link-hover-color, white);
+    }
+    span {
+        vertical-align: middle;
+    }
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.text {
+    &--grey {
+        color: var(--description-color, grey);
+    }
+}
+
+.description {
+    color: var(--description-color, grey);
+}
+
+.learn-more {
+    display: block;
+    width: 125px;
+    height: 43px;
+    padding: 17px 27px;
+}
+

@@ -1,0 +1,58 @@
+.features-section {
+    &__wrap {
+        padding: 55px 240px 10px 0;
+        background-image: url(../img/Umbrella_Icon.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        margin-bottom: 64px;
+    }
+    &__text {
+        font-size: 1.82rem;
+        line-height: 36px;
+        color: var(--title-color);
+        opacity: 0.8;
+        &--roboto {
+            font-family: "Roboto";
+        }
+    }
+}
+
+.features-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 38px;
+    &::after {
+        position: absolute;
+        content: "";
+        width: 695px;
+        height: 2px;
+        bottom: -40px;
+        right: 0;
+        background-color: var(--title-color);
+        opacity: 0.1;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 156px;
+        flex-shrink: 0;
+        padding-bottom: 20px;
+        &:not(:last-child) {
+            margin-right: 111px;
+        }
+    }
+    &__img {
+        margin-bottom: 33px;
+    }
+    &__title {
+        color: var(--link-hover-background);
+        margin-bottom: 14px;
+    }
+    &__text {
+        font-family: "Helvetica";
+        text-align: center;
+        margin-bottom: 33px;
+    }
+}
