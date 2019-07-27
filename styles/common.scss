@@ -19,6 +19,7 @@
 }
 
 .link {
+    display: block;
     text-decoration: none;
     &:hover {
         color: var(--link-hover-color, white);
@@ -39,6 +40,7 @@
 }
 
 .text {
+    font-family: "Helvetica";
     &--grey {
         color: var(--description-color, grey);
     }

@@ -43,7 +43,12 @@
         text-transform: uppercase;
     }
     &__link {
-        background-color: transparent;
+        font-family: "Montserrat bold";
+        font-size: var(--link-font-size);
+        line-height: 6.9px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        text-decoration: none;
         &:not(:last-child) {
             margin-right: 36px;
         }

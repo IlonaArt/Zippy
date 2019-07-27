@@ -1,4 +1,6 @@
 .features-section {
+    padding-bottom: 38px;
+    margin-bottom: 56px;
     &__wrap {
         padding: 55px 240px 10px 0;
         background-image: url(../img/Umbrella_Icon.svg);
@@ -21,7 +23,6 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 38px;
     &::after {
         position: absolute;
         content: "";
@@ -51,7 +52,6 @@
         margin-bottom: 14px;
     }
     &__text {
-        font-family: "Helvetica";
         text-align: center;
         margin-bottom: 33px;
     }
