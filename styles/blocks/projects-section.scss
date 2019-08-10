@@ -8,6 +8,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    @media(min-width: 1400px) {
+        justify-content: flex-start;
+    }
     &__item {
         flex-basis: 350px;
         margin-bottom: 20px;

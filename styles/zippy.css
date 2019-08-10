@@ -265,6 +265,11 @@ ul {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+  @media (min-width: 1400px) {
+    .projects-list {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
   .projects-list__item {
     -ms-flex-preferred-size: 350px;
         flex-basis: 350px;
