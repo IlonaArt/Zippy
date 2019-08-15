@@ -19,11 +19,14 @@
         }
         &:hover {
             .projects-list__wrap {
+                background-color: #ffe26d;
                 background-color: var(--link-background-color);
             }
             .link {
                 &--white {
+                    background-color: #62497c;
                     background-color: var(--link-hover-background);
+                    color: #ffffff;
                     color: var(--link-hover-color);
                 }
             }
@@ -33,9 +36,11 @@
         padding: 46px 35px 47px 44px;
         cursor: pointer;
         &--grey {
+            background-color:#efefef;
             background-color: var(--project-odd-color);
         }
         &--darkgrey {
+            background-color:  #e4e4e4;
             background-color: var(--project-even-color);
         }
     }
@@ -50,6 +55,7 @@
         width: 162px;
         height: 43px;
         padding: 16px 24px;
+        background-color:#fefefe;
         background-color: var(--launch-case-color);
     }
 }

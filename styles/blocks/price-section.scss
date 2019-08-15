@@ -27,7 +27,8 @@
                 right: -45px;
                 width: 2px;
                 height: 199px;
-                background-color: var(--description-color, grey);
+                background-color: #9e9e9e;
+                background-color: var(--description-color);
                 opacity: 0.2;
                 @media(max-width: 768px) {
                     height: 224px;
@@ -43,10 +44,12 @@
     }
     &__text {
         font-family: "Helvetica";
+        font-size: 0.625rem;
         font-size: var(--small-font);
         padding: 6px 18px 24px;
         text-align: center;
         @media(max-width: 768px) {
+            font-size: calc(0.625rem * 1.3);
             font-size: calc(var(--small-font) * 1.3);
         }
     }

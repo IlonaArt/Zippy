@@ -1,18 +1,23 @@
 .section-title {
     font-family: "Montserrat Bold";
-    font-size: var(--title-font-size);
+    font-size: 2.75rem;
+    font-size: var(--section-title-font-size);
     line-height: 40.52px;
     display: flex;
     justify-content: center;
-    color: var(--title-color, black);
+    color: #000000;
+    color: var(--section-title-color);
 }
 
 .button,
 .link {
     font-family: "Montserrat bold";
+    font-size: 0.625rem;
     font-size: var(--small-font);
     line-height: 6.9px;
-    color: var(--link-color, black);
+    color: #000000;
+    color: var(--link-color);
+    background-color: #ffe26d;
     background-color: var(--link-background-color);
     text-transform: uppercase;
     border-radius: 3px;
@@ -22,13 +27,17 @@
     display: block;
     text-decoration: none;
     &:hover {
-        color: var(--link-hover-color, white);
+        color: #ffffff;
+        color: var(--link-hover-color);
+        background-color:#62497c;
         background-color: var(--link-hover-background);
     }
     &:focus,
     &:active {
+        background-color:#4f3c62;
         background-color:var(--link-focus-background);
-        color: var(--link-hover-color, white);
+        color: #ffffff;
+        color: var(--link-hover-color);
     }
     span {
         vertical-align: middle;
@@ -36,18 +45,22 @@
 }
 
 .title {
+    font-size: 0.94rem;
+    font-size: var(--title-font-size);
     text-transform: uppercase;
 }
 
 .text {
     font-family: "Helvetica";
     &--grey {
-        color: var(--description-color, grey);
+        color: #9e9e9e;
+        color: var(--description-color);
     }
 }
 
 .description {
-    color: var(--description-color, grey);
+    color: #9e9e9e;
+    color: var(--description-color);
 }
 
 .learn-more {

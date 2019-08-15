@@ -11,7 +11,8 @@
     &__text {
         font-size: 1.82rem;
         line-height: 36px;
-        color: var(--title-color);
+        color: #040405;
+        color: var(--section-title-color);
         opacity: 0.8;
         &--roboto {
             font-family: "Roboto";
@@ -30,7 +31,8 @@
         height: 2px;
         bottom: -40px;
         right: 0;
-        background-color: var(--title-color);
+        background-color: #040405;
+        background-color: var(--section-title-color);
         opacity: 0.1;
     }
     &__item {
@@ -48,6 +50,7 @@
         margin-bottom: 33px;
     }
     &__title {
+        color: #62497c;
         color: var(--link-hover-background);
         margin-bottom: 14px;
     }

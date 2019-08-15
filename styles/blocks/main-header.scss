@@ -1,6 +1,7 @@
 .main-header {
     min-height: 693px;
     background-image: url("../img/Img-header1.jpg");
+    background-color: #47566d;
     background-color: var(--header-background);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +15,8 @@
             @extend %borderless-btn; 
             width: 8px;
             height: 8px;
-            background-color: var(--header-text-color, #ffffff);
+            background-color: #ffffff;
+            background-color: var(--header-text-color);
             border-radius: 50%;
             opacity: 0.5;
             &:not(:last-child) {
@@ -36,6 +38,7 @@
     margin-bottom: 127px;
     &__logo,
     &__link {
+        color: #ffffff;
         color: var(--header-text-color);
     }
     &__logo {
@@ -44,7 +47,8 @@
     }
     &__link {
         font-family: "Montserrat bold";
-        font-size: var(--link-font-size);
+        font-size:  0.625rem;
+        font-size: var(--small-font);
         line-height: 6.9px;
         text-transform: uppercase;
         border-radius: 3px;
@@ -54,10 +58,12 @@
         }
         &:hover,
         &:active {
-            color: var(--header-link-hover, yellow);
+            color: #ffe26d;
+            color: var(--header-link-hover);
         }
         &:focus {
-            color: orange;
+            color: #ffa500;
+            color: var(--header-link-focus);
         }
     }
 }
@@ -67,6 +73,7 @@
     margin-bottom: 214px;
     &__slogan,
     &__text {
+        color: #ffffff;
         color: var(--header-text-color);
         margin-bottom: 33px;
         &--roboto {
